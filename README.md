@@ -1,6 +1,8 @@
 # Sprockets::Rails::Nonexistent
 
-TODO: Write a gem description
+Notify nonexsistent stylesheet or javascript through sprockets-rails.
+When you use `stylesheet_link_tag` or `javascript_include_tag` in development  or test, rails continues rendering if those asset files don't exist.
+But that cause error in production, for example `isn't precompiled`.
 
 ## Installation
 
@@ -20,11 +22,12 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+You can use `stylesheet_link_tag` and `javascript_include_tag` same as before.
+When sprockets can not find stylesheet or javascript, raise error in development and test.
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/sprockets-rails-nonexistent/fork )
+1. Fork it ( https://github.com/h3poteto/sprockets-rails-nonexistent/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
