@@ -1,4 +1,4 @@
 require "sprockets/rails/nonexistent/version"
-require "sprockets/rails/helper"
+require "./helper.rb"
 
 include Sprockets::Rails::Helper

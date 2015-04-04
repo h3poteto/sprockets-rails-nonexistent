@@ -1,4 +1,7 @@
 # coding: utf-8
+require 'sprockets/railtie'
+require 'sprockets/rails'
+
 module Sprockets::Rails::Helper
   def stylesheet_link_tag(*sources)
     sources.each do |stylesheet|
