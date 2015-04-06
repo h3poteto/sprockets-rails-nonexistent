@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "sass"
   spec.add_development_dependency "uglifier"
 
-  spec.add_dependency "sprockets",  "< 4.0"
+  spec.add_dependency "sprockets",  [">= 2.8", "< 4.0"]
   spec.add_dependency "actionpack", ">= 3.0"
   spec.add_dependency "activesupport", ">= 3.0"
   spec.add_dependency "sprockets-rails", "<= 2.2.4"
