@@ -4,6 +4,8 @@ Notify nonexsistent stylesheet or javascript through sprockets-rails.
 When you use `stylesheet_link_tag` or `javascript_include_tag` in development  or test, rails continues rendering if those asset files don't exist.
 But that cause error in production, for example `isn't precompiled`.
 
+This gem can use in Rails4.x. If you want to use this gem in Rails3.x, please use [sprockets-helpers-nonexistent](https://github.com/h3poteto/sprockets-helpers-nonexistent).
+
 ## Installation
 
 Add this line to your application's Gemfile:
