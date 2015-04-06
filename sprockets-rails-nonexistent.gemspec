@@ -30,5 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "sprockets",  [">= 2.8", "< 4.0"]
   spec.add_dependency "actionpack", ">= 3.0"
   spec.add_dependency "activesupport", ">= 3.0"
-  spec.add_dependency "sprockets-rails", "<= 2.2.4"
+  spec.add_dependency "sprockets-rails", [">=1.0.0", "<= 2.2.4"]
 end
